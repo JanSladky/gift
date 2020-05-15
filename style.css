@@ -1,0 +1,50 @@
+/*GENERAL*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* CLEAR FIX */
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+body {
+  color: #fff;
+  font: 100%;
+  font-weight: bold;
+  background: ;
+  padding: 0 20px;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 0.15em;
+}
+#demo {
+	margin-top: 1em;
+}
+h1 {
+	margin-bottom: 1em;
+}
+.lead {
+	font-size: 1em;
+}
+.bi-heart-fill {
+	color: red;
+}
+#youtube {
+	display: none;
+}
+.jumbotron {
+	margin-top: 3em;
+}
+p {
+
+	letter-spacing: 0.15em;
+}
